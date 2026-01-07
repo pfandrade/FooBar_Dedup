@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		27C432502F0EB89500A4B1B3 /* FooBar */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 27C432512F0EB89500A4B1B3 /* Build configuration list for PBXAggregateTarget "FooBar" */;
+			buildPhases = (
+				27C432562F0EB97E00A4B1B3 /* Copy Resource Bundles to Framework */,
+			);
+			dependencies = (
+				27C432552F0EB8DB00A4B1B3 /* PBXTargetDependency */,
+			);
+			name = FooBar;
+			packageProductDependencies = (
+			);
+			productName = FooBar;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		27C432192F0E970B00A4B1B3 /* FooBar in Frameworks */ = {isa = PBXBuildFile; productRef = 27C432182F0E970B00A4B1B3 /* FooBar */; };
+		27C4321B2F0E970B00A4B1B3 /* FooBar in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 27C432182F0E970B00A4B1B3 /* FooBar */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		27C432452F0E9F9700A4B1B3 /* Share.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 27C4323A2F0E9F9700A4B1B3 /* Share.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		27C4324D2F0E9FBF00A4B1B3 /* FooBar in Frameworks */ = {isa = PBXBuildFile; productRef = 27C4324C2F0E9FBF00A4B1B3 /* FooBar */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27C432422F0E9F9700A4B1B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27C431F22F0E956400A4B1B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27C432392F0E9F9700A4B1B3;
+			remoteInfo = Share;
+		};
+		27C432572F0EBAE700A4B1B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27C431F22F0E956400A4B1B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27C432502F0EB89500A4B1B3;
+			remoteInfo = FooBar;
+		};
+		27C432592F0EBAED00A4B1B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27C431F22F0E956400A4B1B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27C432502F0EB89500A4B1B3;
+			remoteInfo = FooBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27C4321A2F0E970B00A4B1B3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				27C4321B2F0E970B00A4B1B3 /* FooBar in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C432442F0E9F9700A4B1B3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				27C432452F0E9F9700A4B1B3 /* Share.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		27C431FA2F0E956400A4B1B3 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C432082F0E95B000A4B1B3 /* .. */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ..; name = "FooBar"; sourceTree = SOURCE_ROOT; };
+		27C4323A2F0E9F9700A4B1B3 /* Share.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Share.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		27C432482F0E9F9700A4B1B3 /* Exceptions for "Share" folder in "Share" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 27C432392F0E9F9700A4B1B3 /* Share */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		27C4322C2F0E989F00A4B1B3 /* App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = App;
+			sourceTree = "<group>";
+		};
+		27C4323B2F0E9F9700A4B1B3 /* Share */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				27C432482F0E9F9700A4B1B3 /* Exceptions for "Share" folder in "Share" target */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27C431F72F0E956400A4B1B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C432192F0E970B00A4B1B3 /* FooBar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C432372F0E9F9700A4B1B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C4324D2F0E9FBF00A4B1B3 /* FooBar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27C431F12F0E956400A4B1B3 = {
+			isa = PBXGroup;
+			children = (
+				27C432082F0E95B000A4B1B3 /* .. */,
+				27C4322C2F0E989F00A4B1B3 /* App */,
+				27C4323B2F0E9F9700A4B1B3 /* Share */,
+				27C432172F0E970B00A4B1B3 /* Frameworks */,
+				27C431FB2F0E956400A4B1B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27C431FB2F0E956400A4B1B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27C431FA2F0E956400A4B1B3 /* App.app */,
+				27C4323A2F0E9F9700A4B1B3 /* Share.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27C432172F0E970B00A4B1B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27C431F92F0E956400A4B1B3 /* App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C432052F0E956600A4B1B3 /* Build configuration list for PBXNativeTarget "App" */;
+			buildPhases = (
+				27C431F62F0E956400A4B1B3 /* Sources */,
+				27C431F72F0E956400A4B1B3 /* Frameworks */,
+				27C431F82F0E956400A4B1B3 /* Resources */,
+				27C4321A2F0E970B00A4B1B3 /* Embed Frameworks */,
+				27C432442F0E9F9700A4B1B3 /* Embed Foundation Extensions */,
+				27C4325B2F0EBE5300A4B1B3 /* Remove Duplicate Resouce Bundles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27C432582F0EBAE700A4B1B3 /* PBXTargetDependency */,
+				27C432432F0E9F9700A4B1B3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				27C4322C2F0E989F00A4B1B3 /* App */,
+			);
+			name = App;
+			packageProductDependencies = (
+				27C432182F0E970B00A4B1B3 /* FooBar */,
+			);
+			productName = App;
+			productReference = 27C431FA2F0E956400A4B1B3 /* App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27C432392F0E9F9700A4B1B3 /* Share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C432492F0E9F9700A4B1B3 /* Build configuration list for PBXNativeTarget "Share" */;
+			buildPhases = (
+				27C432362F0E9F9700A4B1B3 /* Sources */,
+				27C432372F0E9F9700A4B1B3 /* Frameworks */,
+				27C432382F0E9F9700A4B1B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27C4325A2F0EBAED00A4B1B3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				27C4323B2F0E9F9700A4B1B3 /* Share */,
+			);
+			name = Share;
+			packageProductDependencies = (
+				27C4324C2F0E9FBF00A4B1B3 /* FooBar */,
+			);
+			productName = Share;
+			productReference = 27C4323A2F0E9F9700A4B1B3 /* Share.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27C431F22F0E956400A4B1B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					27C431F92F0E956400A4B1B3 = {
+						CreatedOnToolsVersion = 26.1;
+					};
+					27C432392F0E9F9700A4B1B3 = {
+						CreatedOnToolsVersion = 26.1;
+					};
+					27C432502F0EB89500A4B1B3 = {
+						CreatedOnToolsVersion = 26.1;
+					};
+				};
+			};
+			buildConfigurationList = 27C431F52F0E956400A4B1B3 /* Build configuration list for PBXProject "App" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27C431F12F0E956400A4B1B3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 27C431FB2F0E956400A4B1B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27C431F92F0E956400A4B1B3 /* App */,
+				27C432392F0E9F9700A4B1B3 /* Share */,
+				27C432502F0EB89500A4B1B3 /* FooBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27C431F82F0E956400A4B1B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C432382F0E9F9700A4B1B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27C432562F0EB97E00A4B1B3 /* Copy Resource Bundles to Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Resource Bundles to Framework";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Ensure BUILT_PRODUCTS_DIR is set\nif [ -z \"$BUILT_PRODUCTS_DIR\" ]; then\n  echo \"Error: BUILT_PRODUCTS_DIR is not set.\"\n  exit 1\nfi\n\nSRC_DIR=\"$BUILT_PRODUCTS_DIR\"\n\n# Find FooBar_*.bundle directories and define RSRC_BUNDLES\nRSRC_BUNDLES=$(\n  cd \"$SRC_DIR\" || exit 1\n  for b in FooBar_*.bundle; do\n    [ -d \"$b\" ] && basename \"$b\" .bundle\n  done\n)\n\n# Ensure we actually found some bundles\nif [ -z \"$RSRC_BUNDLES\" ]; then\n  echo \"Error: No FooBar_*.bundle directories found in $SRC_DIR\"\n  exit 1\nfi\n\nif [ \"$ACTION\" = \"install\" ]; then\n  DEST_DIR=\"$BUILT_PRODUCTS_DIR/FooBar.framework\"\nelse\n  DEST_DIR=\"$BUILT_PRODUCTS_DIR/PackageFrameworks/FooBar.framework\"\nfi\n\necho \"Copying bundles to $DEST_DIR\"\necho \"Bundles: $RSRC_BUNDLES\"\n\n# Make sure destination exists\nmkdir -p \"$DEST_DIR\"\n\nfor bundle in $RSRC_BUNDLES; do\n  SRC=\"$SRC_DIR/$bundle.bundle\"\n  DEST=\"$DEST_DIR/$bundle.bundle\"\n\n  if [ -d \"$SRC\" ]; then\n    echo \"Copying $SRC → $DEST\"\n    rm -rf \"$DEST\"\n    cp -LR \"$SRC\" \"$DEST\"\n  else\n    echo \"Warning: $SRC does not exist, skipping.\"\n  fi\ndone\n";
+		};
+		27C4325B2F0EBE5300A4B1B3 /* Remove Duplicate Resouce Bundles */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Remove Duplicate Resouce Bundles";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Ensure BUILT_PRODUCTS_DIR is set\nif [ -z \"$BUILT_PRODUCTS_DIR\" ]; then\n  echo \"Error: BUILT_PRODUCTS_DIR is not set.\"\n  exit 1\nfi\n\n# Ensure EXECUTABLE_FOLDER_PATH is set\nif [ -z \"$EXECUTABLE_FOLDER_PATH\" ]; then\n  echo \"Error: EXECUTABLE_FOLDER_PATH is not set.\"\n  exit 1\nfi\n\nSRC_DIR=\"$BUILT_PRODUCTS_DIR\"\n\n# Find FooBar_*.bundle directories and define RSRC_BUNDLES\nRSRC_BUNDLES=$(\n  cd \"$SRC_DIR\" || exit 1\n  for b in FooBar_*.bundle; do\n    [ -d \"$b\" ] && basename \"$b\" .bundle\n  done\n)\n\n# Ensure we actually found some bundles\nif [ -z \"$RSRC_BUNDLES\" ]; then\n  echo \"Error: No FooBar_*.bundle directories found in $SRC_DIR\"\n  exit 1\nfi\n\nTARGET_DIR=\"$BUILT_PRODUCTS_DIR/$EXECUTABLE_FOLDER_PATH\"\n\necho \"Removing bundles from $TARGET_DIR\"\necho \"Bundles: $RSRC_BUNDLES\"\n\n# Function to remove bundles from a given directory\nremove_bundles_from_dir() {\n  local dir=\"$1\"\n  for bundle in $RSRC_BUNDLES; do\n    local path=\"$dir/$bundle.bundle\"\n    if [ -d \"$path\" ]; then\n      echo \"Removing $path\"\n      rm -rf \"$path\"\n    fi\n  done\n}\n\n# 1) Check TARGET_DIR itself\nremove_bundles_from_dir \"$TARGET_DIR\"\n\n# 2) Check subdirectories, excluding FooBar.framework\nfind \"$TARGET_DIR\" -type d -maxdepth 2 ! -name \"FooBar.framework\" | while read -r dir; do\n  remove_bundles_from_dir \"$dir\"\ndone\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27C431F62F0E956400A4B1B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C432362F0E9F9700A4B1B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27C432432F0E9F9700A4B1B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27C432392F0E9F9700A4B1B3 /* Share */;
+			targetProxy = 27C432422F0E9F9700A4B1B3 /* PBXContainerItemProxy */;
+		};
+		27C432552F0EB8DB00A4B1B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 27C432542F0EB8DB00A4B1B3 /* FooBar */;
+		};
+		27C432582F0EBAE700A4B1B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27C432502F0EB89500A4B1B3 /* FooBar */;
+			targetProxy = 27C432572F0EBAE700A4B1B3 /* PBXContainerItemProxy */;
+		};
+		27C4325A2F0EBAED00A4B1B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27C432502F0EB89500A4B1B3 /* FooBar */;
+			targetProxy = 27C432592F0EBAED00A4B1B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27C432032F0E956600A4B1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = M3T3L5VBPT;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27C432042F0E956600A4B1B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M3T3L5VBPT;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27C432062F0E956600A4B1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3T3L5VBPT;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.pfandrade.FooBar.App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27C432072F0E956600A4B1B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3T3L5VBPT;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.pfandrade.FooBar.App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27C432462F0E9F9700A4B1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3T3L5VBPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Share/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Share;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.pfandrade.FooBar.App.Share;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27C432472F0E9F9700A4B1B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3T3L5VBPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Share/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Share;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.pfandrade.FooBar.App.Share;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27C432522F0EB89500A4B1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3T3L5VBPT;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27C432532F0EB89500A4B1B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3T3L5VBPT;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27C431F52F0E956400A4B1B3 /* Build configuration list for PBXProject "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C432032F0E956600A4B1B3 /* Debug */,
+				27C432042F0E956600A4B1B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C432052F0E956600A4B1B3 /* Build configuration list for PBXNativeTarget "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C432062F0E956600A4B1B3 /* Debug */,
+				27C432072F0E956600A4B1B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C432492F0E9F9700A4B1B3 /* Build configuration list for PBXNativeTarget "Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C432462F0E9F9700A4B1B3 /* Debug */,
+				27C432472F0E9F9700A4B1B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C432512F0EB89500A4B1B3 /* Build configuration list for PBXAggregateTarget "FooBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C432522F0EB89500A4B1B3 /* Debug */,
+				27C432532F0EB89500A4B1B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		27C432182F0E970B00A4B1B3 /* FooBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FooBar;
+		};
+		27C4324C2F0E9FBF00A4B1B3 /* FooBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FooBar;
+		};
+		27C432542F0EB8DB00A4B1B3 /* FooBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FooBar;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 27C431F22F0E956400A4B1B3 /* Project object */;
+}
