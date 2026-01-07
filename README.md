@@ -1,1 +1,1 @@
-Sample project showing how to deduplicate code and assets when using Swift modules in Xcode. Check the accompanying blog post on [my blog](https://pfandrade.me/blog/swift-modules-and-codeassets-duplication/)
+Sample project showing how to deduplicate code and assets when using Swift modules in Xcode. Check the accompanying blog post on [my blog](https://pfandrade.me/blog/swift-modules-and-codeassets-duplication/).
